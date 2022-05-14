@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/openpeep/i18nyml/main/.github/logo.png" width="140px"><br>
+    <img src="https://raw.githubusercontent.com/openpeep/pomo/main/.github/logo.png" width="140px"><br>
     A simple Gettext <code>.PO</code> / <code>.POT</code> parser written in Nim language 👑<br>
 </p>
 
