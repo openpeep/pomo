@@ -118,10 +118,10 @@ proc walk[P: Parser](p: var P) =
                 p.statements.add p.parseComment()
         jump p
 
-proc parseProgram*(poContents: string): Parser =
+proc po*(text: string): Parser =
     ## The main procedure to call within your app
     ## in order to parse a ``.po`` document.
-    var p: Parser = Parser(lexer: Lexer.init(poContents))
+    var p: Parser = Parser(lexer: Lexer.init(text))
     p.current = p.lexer.getToken()
     p.next    = p.lexer.getToken()
     p.prev    = p.current

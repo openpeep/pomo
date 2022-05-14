@@ -12,7 +12,7 @@ msgstr "Cumpără acum"
 msgid "Delete account"
 msgstr "Șterge contul"
 """
-    var p = parseProgram(poContents = contents)
+    var p = po(text = contents)
     let statements = p.getStatements()
     check statements.len == 3
     check p.hasError == false
